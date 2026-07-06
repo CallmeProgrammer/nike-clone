@@ -1,0 +1,95 @@
+.product-section {
+  padding: 0 150px 80px;
+  background: white;
+}
+
+.product-section h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.product-card {
+  display: block;
+
+  text-decoration: none;
+  gap: 12px;
+
+  color: #3b3535;
+
+}
+
+.product-card img {
+  width: 100%;
+
+  aspect-ratio: 1/1;
+
+  object-fit: cover;
+
+    filter:
+    brightness(0.93)
+    contrast(1.03);
+
+  display: block;
+}
+
+.product-card h3 {
+  margin-top: 12px;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.product-description {
+  margin-top: 0;
+  font-size: 14px;
+  color: #707072;
+}
+
+.product-price {
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.product-price span {
+  margin-left: 6px;
+
+  text-decoration: line-through;
+
+  color: #707072;
+}
+
+.product-price small {
+  margin-left: 6px;
+
+  color: #707072;
+
+  font-size: 16px;
+}
+
+/* Nike arrows */
+
+.product-section .swiper {
+  position: relative;
+  color: black  ;
+}
+
+.product-section .swiper-button-prev,
+.product-section .swiper-button-next {
+  top: calc(50% - 80px) !important;
+
+  transform: translateY(30%);
+
+  width: 56px !important;
+  height: 56px !important;
+
+  border-radius: 50%;
+
+  background: #ffffff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px !important;
+
+  color: black;
+}

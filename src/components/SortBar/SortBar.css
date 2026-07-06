@@ -1,0 +1,29 @@
+.sort-bar{
+
+    height:88px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.sort-bar h1{
+
+    font-size:34px;
+
+    font-weight:500;
+
+}
+
+.sort-actions{
+
+    display:flex;
+
+    gap:40px;
+
+    font-size:18px;
+
+}

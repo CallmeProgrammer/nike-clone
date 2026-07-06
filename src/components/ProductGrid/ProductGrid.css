@@ -1,0 +1,30 @@
+.products-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    column-gap: 16px;
+
+    row-gap: 48px;
+
+}
+@media (max-width: 1600px) {
+
+    .products-page {
+
+        padding: 0 80px 80px;
+
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .products-page {
+
+        padding: 0 40px 80px;
+
+    }
+
+}

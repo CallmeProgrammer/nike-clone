@@ -1,0 +1,115 @@
+.spotlight-section {
+  background: white;
+
+  padding: 40px 150px 100px;
+}
+
+/* NIKE APP BANNER */
+
+.nike-app-banner {
+  width: 100%;
+
+  margin-bottom: 80px;
+}
+
+.nike-app-banner img {
+  width: 100%;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+/* SPOTLIGHT IMAGE HEADER */
+
+.spotlight-header {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  margin-bottom: 100px;
+}
+
+.spotlight-banner {
+  max-width: 100%;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+/* GRID */
+
+.spotlight-grid {
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(8, 1fr);
+
+  column-gap: 0;
+}
+
+/* ITEM */
+
+.spotlight-item {
+  text-decoration: none;
+
+  color: #111;
+
+  text-align: center;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+/* IMAGE */
+
+.spotlight-item img {
+  width: 135px;
+
+  height: 135px;
+
+  object-fit: contain;
+
+  display: block;
+
+  margin-bottom: 6px;
+
+
+}
+
+
+/* TABLET */
+
+@media (max-width: 1200px) {
+  .spotlight-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .spotlight-grid {
+    grid-template-columns: repeat(4, 1fr);
+
+    row-gap: 24px;
+  }
+
+  .spotlight-item img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .spotlight-section {
+    padding: 40px 20px 80px;
+  }
+}

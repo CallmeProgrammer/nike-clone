@@ -1,0 +1,82 @@
+.campaign-section {
+  background: white;
+
+  text-align: center;
+
+  padding-top: 70px;
+  padding-bottom: 65px;
+}
+
+.campaign-section h1 {
+  margin: 0;
+
+  font-size: 86px;
+
+  font-weight: 900;
+
+  line-height: 0.88;
+
+  letter-spacing: -3px;
+
+  text-transform: uppercase;
+
+  color: #111;
+}
+
+.campaign-section p {
+  margin-top: 18px;
+
+  margin-bottom: 28px;
+
+  font-size: 18px;
+
+  font-weight: 500;
+
+  color: #111;
+}
+
+.campaign-buttons {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 8px;
+}
+
+.campaign-buttons button {
+  height: 36px;
+
+  border: none;
+
+  border-radius: 999px;
+
+  background: #111;
+
+  color: white;
+
+  padding: 0 20px;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.campaign-buttons button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .campaign-section h1 {
+    font-size: 52px;
+  }
+
+  .campaign-section p {
+    font-size: 15px;
+  }
+
+  .campaign-buttons button {
+    font-size: 14px;
+  }
+}

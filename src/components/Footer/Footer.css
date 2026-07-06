@@ -1,0 +1,42 @@
+.footer {
+  width: 100%;
+
+  background: #fff;
+
+  padding: 24px 32px 70px;
+}
+
+.footer-line {
+  width: 100%;
+
+  height: 1px;
+
+  background: #e5e5e5;
+
+  margin-bottom: 38px;
+}
+
+.footer-content {
+  display: flex;
+
+  align-items: center;
+
+  gap: 28px;
+
+  flex-wrap: wrap;
+}
+
+.footer-content span,
+.footer-content a {
+  font-size: 14px;
+
+  font-weight: 400;
+
+  color: #707072;
+
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  color: #111;
+}

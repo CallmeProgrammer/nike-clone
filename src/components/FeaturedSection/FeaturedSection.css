@@ -1,0 +1,48 @@
+
+.featured-section {
+  padding: 0 150px 80px;
+
+  background: white;
+}
+
+.section-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 24px;
+}
+
+.trending-title {
+  margin-top: 72px;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.trending-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 12px;
+}
+
+.featured-grid a,
+.trending-grid a {
+  display: block;
+
+  overflow: hidden;
+}
+
+.featured-grid img,
+.trending-grid img {
+  width: 100%;
+
+  display: block;
+
+  transition: transform 0.4s ease;
+}
+
