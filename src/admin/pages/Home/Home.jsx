@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Topbar from "../../../components/TopBar/TopBar";
-import Navbar from "../../../components/NavBar/Navbar";
+import Navbar from "../../../components/Navbar/Navbar";
 import PromoBar from "../../../components/PromoBar/PromoBar";
 import Hero from "../../../components/Hero/Hero";
 import CampaignSection from "../../../components/CampaignSection/CampaignSection";
