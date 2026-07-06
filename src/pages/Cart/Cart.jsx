@@ -5,7 +5,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import Topbar from "../../components/TopBar/TopBar";
-import Navbar from "../../components/NavBar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import PromoBar from "../../components/PromoBar/PromoBar";
 import { useCart } from "../../context/CartContext";
 

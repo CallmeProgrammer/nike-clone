@@ -3,7 +3,7 @@ import { useWishlist } from "../../context/WishlistContext";
 import { useCart } from "../../context/CartContext";
 
 import Topbar from "../../components/TopBar/TopBar";
-import Navbar from "../../components/NavBar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import PromoBar from "../../components/PromoBar/PromoBar";
 import Footer from "../../components/Footer/Footer";
 

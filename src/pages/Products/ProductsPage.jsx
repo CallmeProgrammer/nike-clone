@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 import Topbar from "../../components/TopBar/TopBar";
-import Navbar from "../../components/NavBar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import PromoBar from "../../components/PromoBar/PromoBar";
 
 import FiltersSidebar from "../../components/FiltersSidebar/FiltersSidebar";
